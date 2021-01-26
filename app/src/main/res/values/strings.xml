@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">student-predict-course</string>
+    <string name="Password">Password</string>
+    <string name="UserName">User Name</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="full_name">Full Name</string>
+    <string-array name="job_options_array">
+        <item>Teacher</item>
+        <item>Health Care Worker</item>
+        <item>Civil Services</item>
+        <item>At Home</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="education_array">
+        <item>None</item>
+        <item>Primary Education(4th grade)</item>
+        <item>5th to 9th grade</item>
+        <item>Secondary Education</item>
+        <item>Higher Education</item>
+    </string-array>
+    <string-array name="studytime_array">
+        <item>Less than 2 hours</item>
+        <item>2 to 5 hours</item>
+        <item>5 to 10 hours</item>
+        <item>Greater than 10 hours</item>
+    </string-array>
+    <string-array name="SCIENCE_CHAPTERS">
+        <item>Chapter 1 - Matter in our surroundings</item>
+        <item>Chapter 2 - Is matter around us pure?</item>
+        <item>Chapter 3 - Atoms and Molecules</item>
+        <item>Chapter 4 - Structure Of the Atom</item>
+        <item>Chapter 5 - The fundamental unit of life</item>
+        <item>Chapter 6 - Tissues</item>
+        <item>Chapter 7 - Diversity in living organisms</item>
+        <item>Chapter 8 - Motion</item>
+        <item>Chapter 9 - Force and laws of motion</item>
+        <item>Chapter 10 - Gravitation</item>
+        <item>Chapter 11 - Work and Energy</item>
+        <item>Chapter 12 - Sound</item>
+        <item>Chapter 13 - Why do we fall ill?</item>
+        <item>Chapter 14 - Natural Resources</item>
+        <item>Chapter 15 - Improvement in food resources</item>
+    </string-array>
+    <string-array name="ENGLISH_CHAPTERS">
+        <item>Chapter 1 - The Lost Child</item>
+        <item>Chapter 2 - The Adventures of Toto</item>
+        <item>Chapter 3 - Iswaran the Storyteller</item>
+        <item>Chapter 4 - In the Kingdom of Fools</item>
+        <item>Chapter 5 - The Happy Prince</item>
+        <item>Chapter 6 - Weathering the Storm in Ersama</item>
+        <item>Chapter 7 - The Last Leaf</item>
+        <item>Chapter 8 - A House Is Not a Home</item>
+        <item>Chapter 9 - The Accidental Tourist</item>
+        <item>Chapter 10 - The Beggar</item>
+    </string-array>
+    <string-array name="MATH_CHAPTERS">
+        <item>Chapter 1 - Number Systems</item>
+        <item>Chapter 2 - Polynomials</item>
+        <item>Chapter 3 - Coordinate Geometry</item>
+        <item>Chapter 4 - Linear Equations in Two Variables</item>
+        <item>Chapter 5 - Introduction to Euclid\'s Geometry</item>
+        <item>Chapter 6 - Lines and Angles</item>
+        <item>Chapter 7 - Triangles</item>
+        <item>Chapter 8 - Quadrilaterals</item>
+        <item>Chapter 9 - Areas of Parallelograms and Triangles</item>
+        <item>Chapter 10 - Circles</item>
+        <item>Chapter 11 - Constructions</item>
+        <item>Chapter 12 - Heron\'s Formula</item>
+        <item>Chapter 13 - Surface Areas and Volumes</item>
+        <item>Chapter 14 - Statistics</item>
+        <item>Chapter 15 - Probability</item>
+    </string-array>
+    <string-array name="SOCIALSCIENCE_CHAPTERS">
+        <item>Chapter 1 - What is Democracy? Why Democracy?</item>
+        <item>Chapter 2 - Constitutional Design</item>
+        <item>Chapter 3 - Electoral Politics</item>
+        <item>Chapter 4 - Working of Institutions</item>
+        <item>Chapter 5 - Democratic Rights</item>
+    </string-array>
+</resources>

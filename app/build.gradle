@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.0"
+
+    defaultConfig {
+        applicationId "com.ibso.student_predict_course"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.2.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    //Sceneform
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.17.1"
+}
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('sampledata/science_chapter_2_obj_1.fbx', // 'Source Asset Path' specified during import.
+        'default',                            // 'Material Path' specified during import.
+        'sampledata/science_chapter_2_obj_1.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/science_chapter_2_obj_1')
+
+sceneform.asset('sampledata/atom.obj','default','sampledata/atom.sfa','src/main/res/raw/atom')
+sceneform.asset('sampledata/fig4_5.fbx','default','sampledata/fig4_5.sfa','src/main/res/raw/fig4_5')
+sceneform.asset('sampledata/ethene.fbx','default','sampledata/ethene.sfa','src/main/res/raw/ethene')
+sceneform.asset('sampledata/methane.fbx','default','sampledata/methane.sfa','src/main/res/raw/methane')

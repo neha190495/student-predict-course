@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General" >
+        <menu>
+            <item
+                android:id="@+id/userDetails"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/psychometryScore"
+                android:icon="@drawable/ic_baseline_score_24"
+                android:title="Psychometry Score" />
+        </menu>
+    </item>
+    <item android:title="Courses" >
+        <menu>
+            <item
+                android:id="@+id/courseEnglish"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="English" />
+            <item
+                android:id="@+id/courseHindi"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Hindi" />
+            <item
+                android:id="@+id/courseSanskrit"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Sanskrit" />
+            <item
+                android:id="@+id/courseMath"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Mathematics" />
+            <item
+                android:id="@+id/courseScience"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Science" />
+            <item
+                android:id="@+id/courseSocialScience"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="Social Science" />
+        </menu>
+    </item>
+</menu>
